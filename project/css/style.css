@@ -1,0 +1,46 @@
+body {
+    background: #888;
+}
+footer {
+    text-align: center;
+}
+#foot {
+    background: #d8d8d8;
+    padding: 10px;
+}
+.container {
+    background: #fff;
+}
+#body-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#carousel-img {
+    width: 100%;
+}
+#carousel-container {
+    padding-top: 60px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(216, 216, 216, 0.5);
+}
+
+.overlay:hover {
+    opacity: 1;
+  }
