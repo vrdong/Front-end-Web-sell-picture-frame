@@ -1,0 +1,34 @@
+.box {
+	background-color: #fff;
+	padding: 25px 40px;
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Roboto';
+}
+.btn-facebook,
+.btn-facebook:hover {
+	background-color: #4b6ea9;
+	color: #fff;
+	border-radius: 0px 2px 2px 0px;
+    font-size: 20px;
+}
+
+.btn-google,
+.btn-google:hover {
+	background-color: #da2323;
+	color: #fff;
+	border-radius: 0px 2px 2px 0px;
+    font-size: 20px;    
+}
+
+.divider-form {
+    border: 1px solid #EBEFF1;
+    margin: 15px -40px 10px;
+}
+label {
+	text-transform: uppercase;
+	color: #bdc7d4;
+}
+
+strong {
+	color: #95a5bb;
+}
