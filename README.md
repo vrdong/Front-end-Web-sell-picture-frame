@@ -12,8 +12,16 @@ An E-comerce web front-end allow customer choose,design and buy own frames.
 ![alt text](https://i.imgur.com/5Yv4A4x.png)
 ![alt text](https://i.imgur.com/y1jUbPc.png)
 ![alt text](https://i.imgur.com/y806KTc.png)
-This is also an H1
-==================
 
-This is also an H2
-------------------
+## Built with
+* Image-Framer-jquery-plugin - Joonas Pääkkö 
+https://github.com/joonaspaakko/Image-Framer-jquery-plugin
+
+## Member
+* Cao Bá Đông - Student Code: 1512113 - Student of Honors Program in University of Science Ho Chi Minh City.
+
+* Hà Tấn Linh - Student Code: 1512284 - Student of Honors Program in University of Science Ho Chi Minh City.
+
+## Acknowledgments
+* Trần Thị Bích Hạnh - Web design lecturer in University of Science Ho Chi Minh City.
+* Joonas Pääkkö 
