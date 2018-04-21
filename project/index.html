@@ -41,9 +41,9 @@
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Models</a>
                         <div class="dropdown-menu" aria-labelledby="dropdownId">
                             <a class="all     dropdown-item" href="#">All</a>
-                            <a class="khung-t dropdown-item" href="#">Khung tranh</a>
-                            <a class="khung-a dropdown-item" href="#">Khung ảnh</a>
-                            <a class="khung-b dropdown-item" href="#">Khung bằng khen</a>
+                            <a class="khung-t dropdown-item" href="#">Picture frames</a>
+                            <a class="khung-a dropdown-item" href="#">Photo frames</a>
+                            <a class="khung-b dropdown-item" href="#">Merit frames</a>
                         </div>
                     </li>
                     <li class="nav-item dropdown">
@@ -88,15 +88,13 @@
             <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <img src="img/carousel-item-1.jpg" alt="First slide" id="carousel-img">
-                    <div class="carousel-caption mb-5">
-                        <a href="#"><button type="button" class="btn btn-primary">Let's design with us</button></a>
-                    </div>
                 </div>
                 <div class="carousel-item">
                     <img src="img/carousel-item-2.jpg" alt="Second slide" id="carousel-img">
                 </div>
                 <div class="carousel-item">
                     <img src="img/carousel-item-3.jpg" alt="Third slide" id="carousel-img">
+                    
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselId" role="button" data-slide="prev">
@@ -107,6 +105,9 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
             </a>
+            <div class="carousel-caption mb-5">
+                <a href="design.html"><button type="button" class="btn btn-danger">Let's design with us</button></a>
+            </div>
         </div>
     </div>
     <!--BODY CONTAINER-->
@@ -167,7 +168,7 @@
                     </div>
                 </div>
             </div>
-            <a href="register.html" id="viewmore">View more >></a>
+            <a href="products.html" id="viewmore">View more >></a>
         </div>
         <div class="divider-form"></div>
 
@@ -321,7 +322,7 @@
                     </div>
                 </div>
             </div>
-            <div id="view-more"><a href="register.html" id="viewmore">View more >></a></div>
+            <div id="view-more"><a href="products.html" id="viewmore">View more >></a></div>
         </div>
         <div class="divider-form"></div>
         <!--SET PRODUCTS-->
@@ -377,7 +378,7 @@
                     </div>
                 </div>
             </div>
-            <div id="view-more"><a href="register.html" id="viewmore">View more >></a></div>
+            <div id="view-more"><a href="products.html" id="viewmore">View more >></a></div>
         </div>
         <div class="margintop"></div>
     </div>
@@ -389,13 +390,13 @@
                     <h5 class="footer-title">Navigate</h5>
                     <ul>
                         <li>
-                            <a href="#">Design pictures </a>
+                            <a href="design.html">Design pictures </a>
                         </li>
                         <li>
-                            <a href="#">Model</a>
+                            <a href="products.html">Model</a>
                         </li>
                         <li>
-                            <a href="#">Help</a>
+                            <a data-toggle="modal" href="#aboutUs">Help</a>
                         </li>
                     </ul>
                 </div>
@@ -403,10 +404,10 @@
                     <h5 class="footer-title">Company</h5>
                     <ul>
                         <li>
-                            <a href="">About us </a>
+                            <a data-toggle="modal" href="#aboutUs">About us </a>
                         </li>
                         <li>
-                            <a href="">Work with us </a>
+                            <a data-toggle="modal" href="#aboutUs">Work with us </a>
                         </li>
                     </ul>
                 </div>
@@ -463,6 +464,32 @@
                 </div>
             </div>
         </footer>
+    </div>
+
+     <!--MODAL BOX PRODUCT DETAIL-->
+     <div class="modal fade" id="aboutUs" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">About Us</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-6">
+                            Hà Tấn Linh MSSV:1512284
+                        </div>
+                        <div class="col-6">
+                            Cao Bá Đông MSSV:1512113
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>     
+        </div>
     </div>
     
     <!-- Optional JavaScript -->
