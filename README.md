@@ -1,5 +1,5 @@
 # WEB Front-end Sell and change style frames
-An E-comerce web front-end allow customer to choose, design and buy own frames.
+An E-commerce web front-end allow customer to choose, design and buy own frames.
 
 ## Features
 * Three side: customer, user, admin.
