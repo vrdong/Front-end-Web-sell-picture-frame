@@ -5,6 +5,9 @@ An E-comerce web front-end allow customer choose,design and buy own frames.
 * Three side: customer, user, admin.
 * Including: main page, login page, register page, design page, product pages, admin pages, user pages.
 
+## Technique
+* Bootstrap 4, HTML, CSS3, JQuery.
+
 ## Images
 ![alt text](https://i.imgur.com/wY6d9zf.png)
 ![alt text](https://i.imgur.com/EtXXNKd.png)
